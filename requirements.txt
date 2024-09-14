@@ -1,2 +1,3 @@
 flask
 gradio
+flask_cors
