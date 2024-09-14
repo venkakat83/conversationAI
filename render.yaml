@@ -1,0 +1,11 @@
+# Exported from Render on 2024-09-14T07:16:46Z
+services:
+- type: web
+  name: conversationAI
+  runtime: python
+  repo: https://github.com/venkakat83/conversationAI
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python flask_app.py
+version: "1"
